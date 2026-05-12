@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Kishore N S – Machine Learning Engineer, Deep Learning Enthusiast, Front-End Developer. Portfolio showcasing projects, publications, and achievements."/>
+  <title>Kishore N S | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">KNS<span class="dot">.</span></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#awards">Awards</a></li>
+        <li><a href="#links">Links</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="hero">
+    <div class="hero-bg">
+      <div class="hero-orb orb1"></div>
+      <div class="hero-orb orb2"></div>
+      <div class="hero-orb orb3"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-greeting">Hi there, I'm</p>
+      <h1 class="hero-name">Kishore <span class="accent">N S</span></h1>
+      <div class="hero-typed-wrapper">
+        <span class="hero-typed" id="typed-text"></span><span class="cursor">|</span>
+      </div>
+      <p class="hero-desc">Passionate about Machine Learning, Deep Learning, and crafting innovative solutions to real-world problems.</p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://github.com/Kishorens17" target="_blank" rel="noopener" class="social-link" title="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/kishore-n-s-925310305" target="_blank" rel="noopener" class="social-link" title="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+        <a href="mailto:kishorens2005@gmail.com" class="social-link" title="Email">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 010 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-dot"></div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">About <span class="accent">Me</span></h2>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>I am personable, collaborative, and optimistic, with a passion for crafting inventive solutions to intricate problems. I specialize in <strong>machine learning</strong>, <strong>deep learning</strong>, and <strong>front-end development</strong>, with strong Python skills.</p>
+          <p>I'm deeply interested in <strong>AI</strong>, <strong>ethical hacking</strong>, and applying innovative solutions to real-world challenges while continuously learning emerging technologies.</p>
+          <div class="about-stats">
+            <div class="stat-card">
+              <span class="stat-num">8.32</span>
+              <span class="stat-label">CGPA</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">16+</span>
+              <span class="stat-label">Projects</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">1</span>
+              <span class="stat-label">Publication</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">4+</span>
+              <span class="stat-label">Awards</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-info reveal">
+          <div class="info-card">
+            <div class="info-item">
+              <span class="info-icon">📍</span>
+              <span>Chennai, India</span>
+            </div>
+            <div class="info-item">
+              <span class="info-icon">🎓</span>
+              <span>B.Tech CSE with AI</span>
+            </div>
+            <div class="info-item">
+              <span class="info-icon">🏫</span>
+              <span>Amrita Vishwa Vidyapeetham</span>
+            </div>
+            <div class="info-item">
+              <span class="info-icon">📧</span>
+              <a href="mailto:kishorens2005@gmail.com">kishorens2005@gmail.com</a>
+            </div>
+            <div class="info-item">
+              <span class="info-icon">📞</span>
+              <span>+91 63819 28136</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title reveal">Education & <span class="accent">Training</span></h2>
+      <div class="timeline">
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-date">June 2023 – May 2027</span>
+            <h3>Amrita Vishwa Vidyapeetham</h3>
+            <p class="timeline-role">B.Tech – Computer Science Engineering with Artificial Intelligence</p>
+            <p class="timeline-loc">📍 Chennai, India &nbsp;|&nbsp; CGPA: <strong>8.32</strong></p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-date">May 2025 – Aug 2025</span>
+            <h3>SmartEd</h3>
+            <p class="timeline-role">Training & Internship – Artificial Intelligence</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-date">July 2025</span>
+            <h3>ShadowFox</h3>
+            <p class="timeline-role">AIML Internship</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-date">Feb 2024</span>
+            <h3>Code Galatta</h3>
+            <p class="timeline-role">Programming for Beginners – Certification</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">My <span class="accent">Skills</span></h2>
+      <div class="skills-grid">
+        <div class="skill-category reveal">
+          <h3>Programming Languages</h3>
+          <div class="skill-tags">
+            <span class="tag">Python</span>
+            <span class="tag">C</span>
+            <span class="tag">Java</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">HTML/CSS</span>
+            <span class="tag">LaTeX</span>
+            <span class="tag">SQL</span>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <h3>AI / ML Expertise</h3>
+          <div class="skill-tags">
+            <span class="tag">Machine Learning</span>
+            <span class="tag">Deep Learning</span>
+            <span class="tag">Computer Vision</span>
+            <span class="tag">Feature Extraction</span>
+            <span class="tag">Neural Networks</span>
+            <span class="tag">NF-Net</span>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <h3>Soft Skills</h3>
+          <div class="skill-tags">
+            <span class="tag tag-soft">Public Speaking</span>
+            <span class="tag tag-soft">Team Leadership</span>
+            <span class="tag tag-soft">Communication</span>
+            <span class="tag tag-soft">Strategic Planning</span>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <h3>Languages Known</h3>
+          <div class="skill-tags">
+            <span class="tag tag-lang">English</span>
+            <span class="tag tag-lang">Hindi</span>
+            <span class="tag tag-lang">Tamil</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title reveal">Featured <span class="accent">Projects</span></h2>
+      <div class="projects-grid" id="projects-grid"></div>
+    </div>
+  </section>
+
+  <!-- Publications -->
+  <section id="publications" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">Research & <span class="accent">Publications</span></h2>
+
+      <div class="pub-card reveal">
+        <div class="pub-badge">📄 Published</div>
+        <h3>Enhancement of various images using coefficients of Analytic Functions using Python</h3>
+        <p class="pub-venue">2024 International Conference on Intelligent Computing and Sustainable Innovations in Technology <strong>(IC-SIT)</strong> · Nov 2024</p>
+        <p class="pub-doi">DOI: <a href="https://doi.org/10.1109/IC-SIT63503.2024.10861925" target="_blank" rel="noopener">10.1109/IC-SIT63503.2024.10861925</a></p>
+        <div class="pub-tags"><span>Image Processing</span><span>Analytic Functions</span><span>Python</span><span>IEEE</span></div>
+      </div>
+
+      <div class="pub-card reveal">
+        <div class="pub-badge">📄 Published</div>
+        <h3>Classification of White Blood Cells using Feature Extraction and Cell Segmentation</h3>
+        <p class="pub-venue">2025 IEEE International Conference on Intelligent Signal Processing and Effective Communication Technologies <strong>(INSPECT)</strong> · Nov 2025</p>
+        <p class="pub-doi">DOI: <a href="https://doi.org/10.1109/INSPECT67393.2025.11350320" target="_blank" rel="noopener">10.1109/INSPECT67393.2025.11350320</a></p>
+        <div class="pub-tags"><span>Deep Learning</span><span>Cell Segmentation</span><span>VGG16</span><span>LightGBM</span><span>IEEE</span></div>
+      </div>
+
+      <div class="pub-card reveal">
+        <div class="pub-badge">🕐 Accepted</div>
+        <h3>Edge-Native Text-Conditional Noise Reduction: A Multimodal Approach via FiLM-Modulated U-Nets</h3>
+        <p class="pub-venue">International Conference on Devices, Circuits and Systems <strong>(ICDCS'26)</strong> · Karunya Institute of Technology and Sciences, Coimbatore · March 2026</p>
+        <p class="pub-doi"><em>Accepted – Pending Publication</em></p>
+        <div class="pub-tags"><span>Noise Cancellation</span><span>U-Net</span><span>FiLM Modulation</span><span>Edge AI</span><span>Multimodal</span></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Awards -->
+  <section id="awards" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title reveal">Awards & <span class="accent">Achievements</span></h2>
+      <div class="awards-grid">
+        <div class="award-card reveal">
+          <div class="award-icon">🥇</div>
+          <div class="award-place">1st Place</div>
+          <h3>Code Royale</h3>
+          <p>Solo rapid DSA-based coding challenge</p>
+          <span class="award-year">Feb 2026</span>
+        </div>
+        <div class="award-card reveal">
+          <div class="award-icon">🥇</div>
+          <div class="award-place">1st Place</div>
+          <h3>Colay</h3>
+          <p>Relay-based team challenge solving coding problems &amp; technical puzzles</p>
+          <span class="award-year">Feb 2026</span>
+        </div>
+        <div class="award-card reveal">
+          <div class="award-icon">🏆</div>
+          <h3>Smart India Hackathon</h3>
+          <p>Qualified for National Level Submission Round</p>
+          <span class="award-year">2024 &amp; 2025</span>
+        </div>
+        <div class="award-card reveal">
+          <div class="award-icon">🎹</div>
+          <h3>World Record – Piano</h3>
+          <p>World Record Event organized by Kalam Book of Records</p>
+          <span class="award-year">2021</span>
+        </div>
+      </div>
+
+      <!-- Club Experience -->
+      <h2 class="section-title reveal" style="margin-top:4rem;">Club <span class="accent">Experience</span></h2>
+      <div class="pub-card reveal">
+        <div class="pub-badge">🏛️ Club</div>
+        <h3>Hack-A-Ruckus — Neuronix Club AIE</h3>
+        <p class="pub-venue">March 2025 &nbsp;|&nbsp; Amrita Vishwa Vidyapeetham</p>
+        <ul class="club-list">
+          <li>Led a team for Event Organization and Resource Management for an event with <strong>40+ participants</strong>, handling logistics, scheduling, and technical setup.</li>
+          <li>Organized and managed a programming contest with <strong>100+ participants</strong>, ensuring smooth operations and timely problem-solving.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Links -->
+  <section id="links" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">My <span class="accent">Links</span></h2>
+      <div class="links-grid">
+        <a href="https://drive.google.com/drive/folders/1KFlewEutQHxMrJKwQGWeSCYmClFgCrc3?usp=drive_link" target="_blank" rel="noopener" class="link-card reveal" id="link-certificates">
+          <div class="link-card-icon">📜</div>
+          <h3>Certificates</h3>
+          <p>View all my certificates and credentials on Google Drive</p>
+          <span class="link-card-cta">Open Drive →</span>
+        </a>
+        <a href="https://leetcode.com/u/KISHORE_NSK/" target="_blank" rel="noopener" class="link-card reveal" id="link-leetcode">
+          <div class="link-card-icon">💡</div>
+          <h3>LeetCode</h3>
+          <p>Check out my problem-solving profile and DSA progress</p>
+          <span class="link-card-cta">View Profile →</span>
+        </a>
+        <a href="https://github.com/Kishorens17" target="_blank" rel="noopener" class="link-card reveal" id="link-github">
+          <div class="link-card-icon">🐙</div>
+          <h3>GitHub</h3>
+          <p>Explore all my project repositories and open-source work</p>
+          <span class="link-card-cta">Visit GitHub →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">Get In <span class="accent">Touch</span></h2>
+      <p class="contact-desc reveal">I'm always open to new opportunities, collaborations, or just a good tech conversation. Feel free to reach out!</p>
+      <div class="contact-grid">
+        <a href="mailto:kishorens2005@gmail.com" class="contact-card reveal">
+          <div class="contact-icon">📧</div>
+          <h4>Email</h4>
+          <p>kishorens2005@gmail.com</p>
+        </a>
+        <a href="https://www.linkedin.com/in/kishore-n-s-925310305" target="_blank" rel="noopener" class="contact-card reveal">
+          <div class="contact-icon">💼</div>
+          <h4>LinkedIn</h4>
+          <p>kishore-n-s-925310305</p>
+        </a>
+        <a href="https://github.com/Kishorens17" target="_blank" rel="noopener" class="contact-card reveal">
+          <div class="contact-icon">🐙</div>
+          <h4>GitHub</h4>
+          <p>Kishorens17</p>
+        </a>
+        <a href="tel:+916381928136" class="contact-card reveal">
+          <div class="contact-icon">📞</div>
+          <h4>Phone</h4>
+          <p>+91 63819 28136</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="container">
+      <p>Designed & Built by <span class="accent">Kishore N S</span> &nbsp;|&nbsp; Chennai, India</p>
+      <p class="footer-sub">© 2025 All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
