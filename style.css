@@ -259,6 +259,25 @@ ul { list-style: none; }
 .stat-num { display: block; font-size: 1.8rem; font-weight: 800; color: var(--accent); }
 .stat-label { font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; }
 
+.about-photo-wrapper {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.about-photo {
+  max-width: 250px;
+  width: 100%;
+  border-radius: var(--radius);
+  border: 2px solid var(--border);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  transition: var(--transition);
+}
+.about-photo:hover {
+  transform: translateY(-5px);
+  border-color: var(--border-hover);
+}
+
 .info-card {
   background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius);
   padding: 1.5rem; display: flex; flex-direction: column; gap: 1rem;
